@@ -1,0 +1,27 @@
+database: &common 
+  #Specifying the an anchor of common db config
+  host: db.example.net
+  port: 3306
+  database: stock_database
+  username: admin
+  password: root
+  enabled: true
+  legacy: yes
+
+database_staging: 
+  <<: *common
+  database: stock_database_st
+  username: stadmin
+  password: stpassword
+
+database_prod: 
+  <<: *common
+  database: stock_database_prod
+  username: prodadmin
+  password: prodpassword
+
+database_new: *common
+  database: clinic_database
+  username: abcd
+  password: password
+
