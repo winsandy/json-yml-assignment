@@ -1,5 +1,5 @@
 database: &common 
-  #Specifying the an anchor of common db config
+  #Specifying an anchor of common db config
   host: db.example.net
   port: 3306
   database: stock_database
