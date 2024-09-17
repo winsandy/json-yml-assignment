@@ -20,7 +20,7 @@ Clone the repo
 Distributed under the MIT License. See LICENSE.txt for more information.
 
 ## Contact
-Twitter - @winsandymyint 
+Twitter: @winsandymyint <br />
 Email: winsandymyint@gmail.com
 
 Project Link: [https://github.com/winsandy/json-yml-assignment](https://github.com/winsandy/json-yml-assignment)
